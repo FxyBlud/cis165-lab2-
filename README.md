@@ -47,8 +47,13 @@ Explaining the code (sum.cpp): Firstly we must store the given numbers at had wi
 Explaining the code (mpg.cpp): So the question at hand asked us to calculate how much miles the car can travel within an hour, and so since we know that the car traveled 312 miles with 16 gallons of gasoline, we must distribute the amount of miles that were used for each and every gallon. This parallels with the division operation, and so we shall divide the miles (312) by the gallons of gasoline that the car was given (16). I decide to go with using the double data type for all of the variables because the calculation was expected to turn out to as a decimal as well. And if we used int, we would not receive our fully calculation result.
 #### Steps:
 Values:   gallon = 16,  miles = 312
+
 Step 1:  gallon holds 16
+
 Step 2:  miles holds 312
+
 Step 3:  mpg = miles / gallons ->  316 / 16 ->  mpg holds 19.5
+
 Step 4:  cout prints the label and mpg  ->  "The car get 19.5 miles per gallon."
+
 Result:  output matches the expected 19.5 (calculated by hand BEFORE running)
